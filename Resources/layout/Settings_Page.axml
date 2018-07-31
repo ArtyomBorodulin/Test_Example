@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="#fffafafa"
+    android:id="@+id/linearLayout1">
+    <TextView
+        android:id="@+id/title_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Выберите из предложенного ниже списка раздел для настройки программы"
+        android:textSize="20sp"
+        android:textColor="@color/Default_color"
+        android:paddingBottom="30sp" />
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center"
+        android:background="#FFFFFF" />
+    <TextView
+        android:id="@+id/background_value"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="1dp" />
+    <TextView
+        android:id="@+id/textColor_value"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="1dp" />
+</LinearLayout>

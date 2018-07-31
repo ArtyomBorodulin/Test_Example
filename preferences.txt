@@ -1,0 +1,2 @@
+﻿Внешний вид и фон: backgroundColor_textColor
+Датчики: sensors
